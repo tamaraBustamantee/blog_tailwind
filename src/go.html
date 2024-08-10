@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go - Blog de Programación</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="../src/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-tahiti-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-white text-xl font-bold">Mi Blog</a>
+            <div>
+                <a href="index.html" class="text-white mr-4">Inicio</a>
+                <a href="https://freecodecamp.org/" target="_blank" class="text-white">FreeCodeCamp</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-cover bg-center h-64 text-white" style="background-image: url('assets/banner-go.jpg')">
+        <div class="container mx-auto h-full flex justify-center items-center">
+            <h1 class="text-4xl font-bold"></h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-8">
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Introducción a Go</h2>
+            <p class="text-gray-700 mb-4">Go, también conocido como Golang, es un lenguaje de programación desarrollado por Google. Es un lenguaje de programación compilado y concurrente, diseñado para ser simple, eficiente y seguro. Go se destaca por su rendimiento y facilidad para la programación concurrente, lo que lo hace ideal para aplicaciones de red y servicios web.</p>
+            <h3 class="text-xl font-bold mb-2 mt-6">Tabla de Información</h3>
+            <table class="min-w-full bg-white rounded-lg shadow-md">
+                <thead class="bg-tahiti-200">
+                    <tr>
+                        <th class="py-2 px-4">Nombre</th>
+                        <th class="py-2 px-4">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border-t py-2 px-4">Go</td>
+                        <td class="border-t py-2 px-4">Lenguaje de programación compilado y concurrente desarrollado por Google.</td>
+                    </tr>
+                    <tr>
+                        <td class="border-t py-2 px-4">Gin</td>
+                        <td class="border-t py-2 px-4">Framework web minimalista para Go.</td>
+                    </tr>
+                    <tr>
+                        <td class="border-t py-2 px-4">Echo</td>
+                        <td class="border-t py-2 px-4">Framework web de alto rendimiento para Go.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <div class="carousel w-full overflow-hidden relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="assets/ginGo.jpg" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">&lt;</a>
+                        <a href="#slide2" class="btn btn-circle">&gt;</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="assets/gin-go.png" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">&lt;</a>
+                        <a href="#slide3" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="assets/go-ubuntu.png" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">&lt;</a>
+                        <a href="#slide4" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="assets/go-usos.png" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">&lt;</a>
+                        <a href="#slide1" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-tahiti-600 p-4 mt-8">
+        <div class="container mx-auto text-center text-white">
+            &copy; 2024 Mi Blog de Programación. Todos los derechos reservados.
+        </div>
+    </footer>
+    
+    <script src="../src/js/style.js"></script>
+</body>
+
+</html>

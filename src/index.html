@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Programación</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-tahiti-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-white text-xl font-bold">Mi Blog</a>
+            <div>
+                <a href="index.html" class="text-white mr-4">Inicio</a>
+                <a class="nav-link text-white" href="https://freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-cover bg-center h-64" style="background-image: url('assets/banner.jpg')">
+        <div class="container mx-auto h-full flex justify-center items-center">
+            <h1 class="text-5xl font-bold text-tahiti-400 text-shadow-lg">Bienvenido a Mi Blog de Programación</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-8">
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl duration-300">
+                <img src="assets/python.png" alt="Python" class="w-full h-40 object-cover mb-4 rounded">
+                <h2 class="text-xl font-bold mb-2">Python</h2>
+                <p class="text-gray-700 mb-4">Python es un lenguaje de programación interpretado, de alto nivel y de
+                    propósito general. Con su sintaxis clara y legible, es ideal tanto para principiantes como para
+                    desarrolladores experimentados. Python se utiliza ampliamente en desarrollo web, análisis de datos,
+                    inteligencia artificial, automatización y mucho más.</p>
+                <a href="python.html" class="text-blue-600 hover:underline">Leer más</a>
+            </div>
+
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl duration-300">
+                <img src="assets/java.webp" alt="Java" class="w-full h-40 object-cover mb-4 rounded">
+                <h2 class="text-xl font-bold mb-2">Java</h2>
+                <p class="text-gray-700 mb-4">Java es un lenguaje de programación orientado a objetos, conocido por su
+                    portabilidad entre plataformas gracias a la Máquina Virtual de Java (JVM). Es ampliamente utilizado
+                    en aplicaciones empresariales, desarrollo de aplicaciones Android, y sistemas backend robustos.</p>
+                <a href="java.html" class="text-blue-600 hover:underline">Leer más</a>
+            </div>
+
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl duration-300">
+                <img src="assets/golang.webp" alt="Go" class="w-full h-40 object-cover mb-4 rounded">
+                <h2 class="text-xl font-bold mb-2">Go</h2>
+                <p class="text-gray-700 mb-4">Go, también conocido como Golang, es un lenguaje de programación
+                    desarrollado por Google. Es reconocido por su eficiencia y concurrencia, siendo ideal para la
+                    construcción de servidores web, sistemas distribuidos y aplicaciones a gran escala. Go combina la
+                    simplicidad y seguridad del código con un rendimiento elevado.</p>
+                <a href="go.html" class="text-blue-600 hover:underline">Leer más</a>
+            </div>
+
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl duration-300">
+                <img src="assets/html.png" alt="HTML" class="w-full h-40 object-cover mb-4 rounded">
+                <h2 class="text-xl font-bold mb-2">HTML</h2>
+                <p class="text-gray-700 mb-4">HTML (HyperText Markup Language) es el estándar para crear y estructurar
+                    páginas web. Utilizado para definir el contenido y la estructura básica de una página web, HTML
+                    permite incrustar imágenes, enlaces, vídeos y otros elementos multimedia, sirviendo como la columna
+                    vertebral del contenido web.</p>
+                <a href="html.html" class="text-blue-600 hover:underline">Leer más</a>
+            </div>
+
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl duration-300">
+                <img src="assets/css.png" alt="CSS" class="w-full h-40 object-cover mb-4 rounded">
+                <h2 class="text-xl font-bold mb-2">CSS</h2>
+                <p class="text-gray-700 mb-4">CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para
+                    describir la presentación de un documento escrito en HTML o XML. CSS controla el diseño visual y la
+                    apariencia de las páginas web, permitiendo la separación del contenido y el estilo, y asegurando un
+                    diseño más atractivo y consistente.</p>
+                <a href="css.html" class="text-blue-600 hover:underline">Leer más</a>
+            </div>
+
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl duration-300">
+                <img src="assets/js.webp" alt="JavaScript" class="w-full h-40 object-cover mb-4 rounded">
+                <h2 class="text-xl font-bold mb-2">JavaScript</h2>
+                <p class="text-gray-700 mb-4">JavaScript es un lenguaje de programación interpretado, esencial para el
+                    desarrollo web interactivo. Se utiliza para crear dinámicas en las páginas web, como actualizar
+                    contenido en tiempo real, animaciones, y la gestión de eventos. Junto con HTML y CSS, JavaScript es
+                    una de las tecnologías fundamentales de la web.</p>
+                <a href="javascript.html" class="text-blue-600 hover:underline">Leer más</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Contact Form -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Contáctanos</h2>
+        <form id="form" class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 mb-2">Nombre</label>
+                <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-md" placeholder="Tu nombre">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 mb-2">Email</label>
+                <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-md" placeholder="Tu email">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 mb-2">Mensaje</label>
+                <textarea id="message" class="w-full p-2 border border-gray-300 rounded-md" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="bg-tahiti-500 text-white p-2 rounded-md">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-tahiti-600 p-4 mt-8">
+        <div class="container mx-auto text-center text-white">
+            &copy; 2024 Mi Blog de Programación. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="../src/js/index.js"></script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Blog de Programación</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="../src/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-tahiti-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-white text-xl font-bold">Mi Blog</a>
+            <div>
+                <a href="index.html" class="text-white mr-4">Inicio</a>
+                <a href="https://freecodecamp.org/" target="_blank" class="text-white">FreeCodeCamp</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-cover bg-center h-64 text-white" style="background-image: url('assets/banner-html.png')">
+        <div class="container mx-auto h-full flex justify-center items-center">
+            <h1 class="text-4xl font-bold"></h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-8">
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Introducción a HTML</h2>
+            <p class="text-gray-700 mb-4">HTML (HyperText Markup Language) es el lenguaje estándar para crear y diseñar páginas web. Se utiliza para describir la estructura de las páginas web mediante el uso de elementos y etiquetas. HTML es un lenguaje fundamental para el desarrollo web y es utilizado junto con CSS y JavaScript para crear sitios web interactivos y dinámicos.</p>
+
+            <h3 class="text-xl font-bold mb-2 mt-6">Tabla de Información</h3>
+            <table class="min-w-full bg-white rounded-lg shadow-md">
+                <thead class="bg-tahiti-200">
+                    <tr>
+                        <th class="py-2 px-4">Nombre</th>
+                        <th class="py-2 px-4">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border-t py-2 px-4">HTML</td>
+                        <td class="border-t py-2 px-4">Lenguaje de marcado utilizado para crear la estructura de las páginas web.</td>
+                    </tr>
+                    <tr>
+                        <td class="border-t py-2 px-4">HTML5</td>
+                        <td class="border-t py-2 px-4">La quinta versión del lenguaje de marcado HTML, que introduce nuevas funcionalidades y etiquetas.</td>
+                    </tr>
+                    <tr>
+                        <td class="border-t py-2 px-4">Etiquetas</td>
+                        <td class="border-t py-2 px-4">Lenguaje utilizado para estructurar y definir el contenido en un documento HTML.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <div class="carousel w-full overflow-hidden relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="assets/meta.jpg" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">&lt;</a>
+                        <a href="#slide2" class="btn btn-circle">&gt;</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="assets/estructura-html5.jpg" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">&lt;</a>
+                        <a href="#slide3" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="assets/vs2.jpg" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">&lt;</a>
+                        <a href="#slide4" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="assets/vs.png" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">&lt;</a>
+                        <a href="#slide1" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-tahiti-600 p-4 mt-8">
+        <div class="container mx-auto text-center text-white">
+            &copy; 2024 Mi Blog de Programación. Todos los derechos reservados.
+        </div>
+    </footer>
+    
+    <script src="../src/js/style.js"></script>
+</body>
+
+</html>

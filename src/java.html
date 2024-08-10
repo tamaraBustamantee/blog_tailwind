@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java - Blog de Programación</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="../src/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-tahiti-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-white text-xl font-bold">Mi Blog</a>
+            <div>
+                <a href="index.html" class="text-white mr-4">Inicio</a>
+                <a href="https://freecodecamp.org/" target="_blank" class="text-white">FreeCodeCamp</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-cover bg-center h-64 text-white" style="background-image: url('assets/banner-java.jpg')">
+        <div class="container mx-auto h-full flex justify-center items-center">
+            <h1 class="text-4xl font-bold"></h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-8">
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Introducción a Java</h2>
+            <p class="text-gray-700 mb-4">Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos y basado en clases. Fue diseñado para tener la menor cantidad posible de dependencias de implementación. Esto permite que los desarrolladores escriban el código una vez y lo ejecuten en cualquier lugar (WORA), lo que significa que el código Java puede ejecutarse en todas las plataformas que soportan Java sin necesidad de recompilación.</p>
+
+            <h3 class="text-xl font-bold mb-2 mt-6">Tabla de Información</h3>
+            <table class="min-w-full bg-white rounded-lg shadow-md">
+                <thead class="bg-tahiti-200">
+                    <tr>
+                        <th class="py-2 px-4">Nombre</th>
+                        <th class="py-2 px-4">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border-t py-2 px-4">Java</td>
+                        <td class="border-t py-2 px-4">Lenguaje de programación de propósito general, concurrente, orientado a objetos y basado en clases.</td>
+                    </tr>
+                    <tr>
+                        <td class="border-t py-2 px-4">Spring</td>
+                        <td class="border-t py-2 px-4">Framework para desarrollo de aplicaciones empresariales en Java.</td>
+                    </tr>
+                    <tr>
+                        <td class="border-t py-2 px-4">Hibernate</td>
+                        <td class="border-t py-2 px-4">Framework de mapeo objeto-relacional para Java.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <div class="carousel w-full overflow-hidden relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="assets/aplicaciones-Java.jpg" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">&lt;</a>
+                        <a href="#slide2" class="btn btn-circle">&gt;</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="assets/spring-data.png" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">&lt;</a>
+                        <a href="#slide3" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="assets/java-app.jpg" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">&lt;</a>
+                        <a href="#slide4" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="assets/proyecto-java.png" class="w-full">
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">&lt;</a>
+                        <a href="#slide1" class="btn btn-circle">&gt;</a>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-tahiti-600 p-4 mt-8">
+        <div class="container mx-auto text-center text-white">
+            &copy; 2024 Mi Blog de Programación. Todos los derechos reservados.
+        </div>
+    </footer>
+    
+    <script src="../src/js/style.js"></script>
+</body>
+
+</html>
